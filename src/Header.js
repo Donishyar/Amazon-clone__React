@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 
 function header() {
   return (
@@ -42,7 +43,13 @@ function header() {
                 </span>
             </div>
 
-            div.header__optionBasket
+            <div className='header__optionBasket'>
+                <FontAwesomeIcon icon={faShoppingBasket}/>
+                <span className="header__optionLineTwo
+                header__basketCount">
+                    0
+                </span>
+            </div>
 
             
         </div>
