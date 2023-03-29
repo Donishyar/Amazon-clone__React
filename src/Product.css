@@ -1,22 +1,37 @@
 .product {
   display: flex;
   flex-direction: column;
-
-  align-content: center;
+  align-items: center;
   justify-content: flex-end;
   margin: 10px;
   padding: 20px;
   width: 100%;
   max-height: 400px;
   min-width: 100px;
-
-  background-color: #fff;
+  background-color: white;
   z-index: 1;
 }
 
 .product > img {
-  max-height: 200px;
+  max-height: 350px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+}
+
+.product > a {
+  text-decoration: none;
+  color: rgb(38, 111, 214);
+}
+
+.product > a:hover {
+  text-decoration: underline;
+  color: rgb(255, 90, 1);
+}
+
+.product__title {
+  font-size: 20px;
+  font-weight: 600;
+  float: right;
+  width: 100%;
 }
