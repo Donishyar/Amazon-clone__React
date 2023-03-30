@@ -88,9 +88,24 @@ function Home() {
         </div>
 
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            title="Kindle E readers"
+            image={
+              "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_1x._SY304_CB639752818_.jpg"
+            }
+          />
+          <Product
+            title="Shop Laptops & Tablets"
+            image={
+              "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg"
+            }
+          />
+          <Product
+            title="Create with stip lights"
+            image={
+              "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg"
+            }
+          />
         </div>
       </div>
     </div>
